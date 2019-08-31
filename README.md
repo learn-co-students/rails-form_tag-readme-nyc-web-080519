@@ -189,7 +189,7 @@ to the `/posts` resource:
 resources :posts, only: [:index, :new, :create]
 ```
 
-If you run `rake routes`, you'll see we now have a `posts#create` action:
+If you run `rake routes`, you'll see we now have a `posts#create` action:.
 
 ```bash
   Prefix Verb URI Pattern          Controller#Action
